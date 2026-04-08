@@ -1,17 +1,4 @@
 
-Copy
-
-<div align="center">
- 
-```
-╔══════════════════════════════════════════════════════════════╗
-║  I build production systems for domains where bugs cost more  ║
-║  than money — pharma audits, financial markets, enterprise    ║
-║  security. Shipping two SaaS products. Always in Rust or      ║
-║  TypeScript. Never just prototypes.                           ║
-╚══════════════════════════════════════════════════════════════╝
-```
- 
 # Hariom Dhage
  
 **Software Engineer · Co-Founder · Systems Builder**
