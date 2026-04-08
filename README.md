@@ -15,7 +15,7 @@
  
 ## What I actually build
  
-Most engineers write CRUD. I build systems where the data has legal weight — audit trails that can't be tampered, compliance workflows that map to regulatory clauses, execution pipelines where milliseconds matter.
+Most engineers write CRUD. I build systems where the data has legal weight audit trails that can't be tampered, compliance workflows that map to regulatory clauses, execution pipelines where milliseconds matter.
  
 Two tracks, running in parallel:
  
@@ -60,8 +60,8 @@ Continuous compliance monitoring that scans your systems every hour, maps eviden
  
 **What's under the hood:**
 - 4 specialized AI agents (Validation, Compliance, QA, Knowledge)
-- RAG over SOPs — returns answers with exact citations
-- Immutable audit trail — compliant even with expired licenses
+- RAG over SOPs returns answers with exact citations
+- Immutable audit trail compliant even with expired licenses
 - AES-256 + RLS + Zero-trust architecture + on-premise ready
  
 </td>
@@ -83,7 +83,7 @@ Continuous compliance monitoring that scans your systems every hour, maps eviden
 | 2 | Crypto lag detection | Log-normal GBM: P(ST > K) = N(d₂) vs live Coinbase |
 | 3 | Longshot bias exploitation | 60%+ documented overpricing on sub-$0.08 contracts |
  
-Implemented from scratch in pure Rust: **GARCH(1,1)** volatility forecasting, **VPIN** informed-flow detection, **Avellaneda-Stoikov** optimal market-making, **half-Kelly** position sizing — all operating in log-odds space for bounded [0,1] market prices. Scanner produces 15–20 ranked signals per cycle with execution instructions.
+Implemented from scratch in pure Rust: **GARCH(1,1)** volatility forecasting, **VPIN** informed-flow detection, **Avellaneda-Stoikov** optimal market-making, **half-Kelly** position sizing all operating in log-odds space for bounded [0,1] market prices. Scanner produces 15–20 ranked signals per cycle with execution instructions.
  
 Architecture: `core` · `signals` · `backtest` · `risk` · `sentiment` · `execution` · `data` · `runner` — async Tokio runtime, zero-copy serde deserialization.
  
@@ -110,7 +110,7 @@ Production-grade multi-tenant infrastructure: tenant isolation, RBAC, API key ma
  
 Building a full-stack Identity & Access Management platform with 15+ modular services for enterprise customers. Highlights:
 - Engineered breach monitoring via HIBP API + Redis caching → **95% fewer API calls**
-- Implemented zero-runtime type-safe API client from OpenAPI schema via codegen — eliminated all manual API code
+- Implemented zero-runtime type-safe API client from OpenAPI schema via codegen, eliminating all manual API code
 - Immutable audit log infrastructure for all permission events (actor, target, IP, session, delta)
 - Multi-stage access review workflows with automatic approval routing and recurring compliance sign-off
  
@@ -119,7 +119,7 @@ Building a full-stack Identity & Access Management platform with 15+ modular ser
 **Quant / Systems Engineer — Orgax LLC** *(Nov 2024 – Jan 2025)*
 *U.S. Algorithmic Trading Startup*
  
-Re-architected production trading bots (Gold futures + BTC) from Python/C++ hybrid to **pure Rust + C++ stack** — eliminating interpreter overhead, cutting order-placement latency materially. Designed the full hot path: tick ingestion → signal computation → order dispatch. Profiled with flamegraphs + perf, replaced bottlenecks with zero-copy Rust via FFI. Contributed to ML signal integration while maintaining deterministic latency bounds.
+Re-architected production trading bots (Gold futures + BTC) from Python/C++ hybrid to **pure Rust + C++ stack**, eliminating interpreter overhead, cutting order-placement latency materially. Designed the full hot path: tick ingestion → signal computation → order dispatch. Profiled with flamegraphs + perf, replaced bottlenecks with zero-copy Rust via FFI. Contributed to ML signal integration while maintaining deterministic latency bounds.
  
 ---
  
@@ -133,7 +133,7 @@ Built REST APIs and Java SDKs for edX, Moodle, and Canvas LMS platforms. **Reduc
 **Full-Stack Engineer — Quantummosaic** *(2024 – 2025)*
 *U.S. Private Capital Firm*
  
-Shipped a production platform (React + TypeScript + FastAPI + Node.js) end-to-end — dev through staging to production with rollback support. Optimized PostgreSQL queries, implemented caching layers, owned full deployment lifecycle.
+Shipped a production platform (React + TypeScript + FastAPI + Node.js) end-to-end dev through staging to production with rollback support. Optimized PostgreSQL queries, implemented caching layers, and owned the full deployment lifecycle.
  
 ---
  
@@ -187,8 +187,8 @@ Shipped a production platform (React + TypeScript + FastAPI + Node.js) end-to-en
  
 ## Recognition
  
-🏆 **Winner — Cognitia'25** &nbsp;·&nbsp; ⭐ **GSEA Finalist** &nbsp;·&nbsp; ⭐ **Eureka Semi-Finalist**
-🥈 **MindShift Runner-Up** &nbsp;·&nbsp; 🎖️ **Microsoft Learn Student Ambassador** &nbsp;·&nbsp; 🔧 **Technical Officer — ISTE VESIT**
+🏆 **Winner Cognitia'25** &nbsp;·&nbsp; ⭐ **GSEA Finalist** &nbsp;·&nbsp; ⭐ **Eureka Semi-Finalist**
+🥈 **MindShift Runner-Up** &nbsp;·&nbsp; 🎖️ **Microsoft Learn Student Ambassador** &nbsp;·&nbsp; 🔧 **Technical Officer ISTE VESIT**
  
 ---
  
