@@ -34,7 +34,7 @@ Two tracks, running in parallel:
 ### 🟦 [NovaFlow CRM](https://crm-hazel-theta.vercel.app/)
 **AI-Powered Revenue Operating System**
  
-Co-founded. Built the entire product.
+Built the entire product.
  
 B2B CRM with autonomous AI agents that research leads, score deals, and trigger follow-ups without human input. Visual pipeline with 18 customizable stages, omnichannel inbox, Jira-style ticketing, RBAC, and real-time collaboration.
  
@@ -52,7 +52,7 @@ B2B CRM with autonomous AI agents that research leads, score deals, and trigger 
 ### 🟩 [DueVault](https://aiops-delta.vercel.app/)
 **AI-Powered Pharma Compliance Platform**
  
-Co-founded with Dr. Balaji Ommurugan (15+ yrs Novartis/Organon). Built the entire technical stack.
+Built the entire technical stack.
  
 Continuous compliance monitoring that scans your systems every hour, maps evidence to regulatory controls (21 CFR Part 11, ICH Q10, EU GMP, HIPAA and 6 more), and generates audit packages before the auditor calls.
  
