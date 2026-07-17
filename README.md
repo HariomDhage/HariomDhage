@@ -1,7 +1,7 @@
 
 # Hariom Dhage
  
-**Software Engineer · Co-Founder · Systems Builder**
+**Software and AI Infrastructure engineer · Systems Builder**
  
 *Regulated industries. AI workflows. Low-latency infrastructure.*
  
